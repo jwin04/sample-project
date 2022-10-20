@@ -29,7 +29,6 @@ body {
 .bg1 {
     height: 700px;
     width: 1200px;
-    align-items: center;
 }
 .texts1 {
     text-align: center;
@@ -40,11 +39,58 @@ body {
     background: black;
     width: 100%;
 }
-.images img{
+.images img {
     height: 300px;
     width: 300px;
+    margin: 5px;
 }
 .section1 {
     text-align: center;
-    background-color: blue;
+}
+.img {
+    text-align: center;
+}
+.images { 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    opacity: 0.7;
+    text-align: center;
+}
+.bg2 {
+    height: 500px;
+    width: 1000px;
+    position: relative;
+}
+.location {
+    text-align: center; 
+}
+.locationcontainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -150%;
+    margin: 10px;
+}
+.location1 {
+    width: 200px;
+    background-color: black;
+}
+.location2 {
+    width: 200px;
+    background-color: black;
+}
+.location3 {
+    width: 200px;
+    background-color: black;
+}
+.contact {
+    color: seashell;
+    opacity: 0.8;
+    text-align: center;
+    height: 200px;
 }
