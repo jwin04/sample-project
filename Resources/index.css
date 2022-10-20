@@ -1,0 +1,49 @@
+.head {
+    font-family: Helvetica;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    height: 69px;
+}
+.nav {
+    position: relative;
+    float: right;
+    color: seashell;
+}
+li {
+    display: inline-block;
+    justify-content: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.logo {
+    height: 50px;
+    opacity: 0.5;
+    margin: 10px;
+}
+body {
+    color: seashell;
+    background-color: black;
+}
+.bg1 {
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+}
+.texts1 {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    width: 100%;
+}
+.images img{
+    height: 300px;
+    width: 300px;
+}
+.section1 {
+    text-align: center;
+}
